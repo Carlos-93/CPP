@@ -104,8 +104,9 @@ int main() {
                 if (enemyHP1 <= 0) {
                     enemyHP1 = 0;
                     enemyIsAlive1 = false;
+                    cout << "------------------------------------\n";
                     cout << "Has matado al " << enemyName1 << "\n";
-                    cout << "-------------------------\n";
+                    cout << "--------------------\n";
                 }
                 break;
 
@@ -122,8 +123,9 @@ int main() {
                 if (enemyHP1 <= 0) {
                     enemyHP1 = 0;
                     enemyIsAlive1 = false;
+                    cout << "------------------------------------\n";
                     cout << "Has matado al " << enemyName1 << "\n";
-                    cout << "-------------------------\n";
+                    cout << "--------------------\n";
                 }
                 break;
 
@@ -140,8 +142,9 @@ int main() {
                 if (enemyHP1 <= 0) {
                     enemyHP1 = 0;
                     enemyIsAlive1 = false;
+                    cout << "------------------------------------\n";
                     cout << "Has matado al " << enemyName1 << "\n";
-                    cout << "-------------------------\n";
+                    cout << "--------------------\n";
                 }
                 break;
 
@@ -159,10 +162,10 @@ int main() {
                     heroHP = 0;
                     heroIsAlive = false;
                 }
-                cout << "----------------------------------------------------\n";
+                cout << "------------------------------------------------------\n";
                 cout << "El " << enemyName1 << " te ha hecho un ataque de " << enemyDamage1 << " puntos de danyo\n";
                 cout << "Te quedan " << heroHP << " puntos de vida\n";
-                cout << "----------------------------------------------------\n";
+                cout << "------------------------------------------------------\n";
             }
             if (enemyHP2 > 0 && heroHP > 0) {
                 int enemyDamage2 = rand() % 150 + 1;
@@ -208,6 +211,7 @@ int main() {
                 if (enemyHP2 <= 0) {
                     enemyHP2 = 0;
                     enemyIsAlive2 = false;
+                    cout << "----------------------------------\n";
                     cout << "Has matado al " << enemyName2 << "\n";
                 }
                 break;
@@ -219,12 +223,13 @@ int main() {
                     enemyHP2 = 0;
                 }
                 cout << "Has atacado con la magia\n";
-                cout << "------------------------\n";
+                cout << "---------------------------------\n";
                 cout << "Le has hecho " << magia << " puntos de danyo\n";
                 cout << "Al " << enemyName2 << " le quedan " << enemyHP2 << " puntos de vida\n";
                 if (enemyHP2 <= 0) {
                     enemyHP2 = 0;
                     enemyIsAlive2 = false;
+                    cout << "----------------------------------\n";
                     cout << "Has matado al " << enemyName2 << "\n";
                 }
                 break;
@@ -242,6 +247,7 @@ int main() {
                 if (enemyHP2 <= 0) {
                     enemyHP2 = 0;
                     enemyIsAlive2 = false;
+                    cout << "----------------------------------\n";
                     cout << "Has matado al " << enemyName2 << "\n";
                 }
                 break;
@@ -260,12 +266,12 @@ int main() {
                     heroHP = 0;
                     heroIsAlive = false;
                 }
-                cout << "----------------------------------------------------\n";
+                cout << "------------------------------------------------------\n";
                 cout << "El " << enemyName1 << " te ha hecho un ataque de " << enemyDamage1 << " puntos de danyo\n";
                 cout << "Te quedan " << heroHP << " puntos de vida\n";
-                cout << "----------------------------------------------------\n";
+                cout << "------------------------------------------------------\n";
             }
-            
+
             if (enemyHP2 > 0 && heroHP > 0) {
                 int enemyDamage2 = rand() % 150 + 1;
                 heroHP = heroHP - enemyDamage2;
@@ -276,7 +282,7 @@ int main() {
                 cout << "El " << enemyName2 << " te ha hecho un ataque de " << enemyDamage2 << " puntos de danyo\n";
                 cout << "Te quedan " << heroHP << " puntos de vida\n";
                 cout << "----------------------------------------------------\n";
-            }         
+            }
         }
         system("pause");
         system("cls");
@@ -337,8 +343,9 @@ int main() {
                 if (enemyHP1 <= 0) {
                     enemyHP1 = 0;
                     enemyIsAlive1 = false;
+                    cout << "------------------------------------\n";
                     cout << "Has matado al " << enemyName1 << "\n";
-                    cout << "-------------------------\n";
+                    cout << "--------------------\n";
                 }
                 break;
 
@@ -355,8 +362,9 @@ int main() {
                 if (enemyHP1 <= 0) {
                     enemyHP1 = 0;
                     enemyIsAlive1 = false;
+                    cout << "------------------------------------\n";
                     cout << "Has matado al " << enemyName1 << "\n";
-                    cout << "-------------------------\n";
+                    cout << "--------------------\n";
                 }
                 break;
 
@@ -373,8 +381,9 @@ int main() {
                 if (enemyHP1 <= 0) {
                     enemyHP1 = 0;
                     enemyIsAlive1 = false;
+                    cout << "------------------------------------\n";
                     cout << "Has matado al " << enemyName1 << "\n";
-                    cout << "-------------------------\n";
+                    cout << "--------------------\n";
                 }
                 break;
 
@@ -392,10 +401,10 @@ int main() {
                     heroHP = 0;
                     heroIsAlive = false;
                 }
-                cout << "----------------------------------------------------\n";
-                cout << "El " << enemyName1 << " te ha hecho un ataque de " << enemyDamage1 << " puntos de danyo\n";               
+                cout << "------------------------------------------------------\n";
+                cout << "El " << enemyName1 << " te ha hecho un ataque de " << enemyDamage1 << " puntos de danyo\n";
                 cout << "Te quedan " << heroHP << " puntos de vida\n";
-                cout << "----------------------------------------------------\n";
+                cout << "------------------------------------------------------\n";
             }
         }
         system("pause");
@@ -455,8 +464,9 @@ int main() {
                 if (enemyHP2 <= 0) {
                     enemyHP2 = 0;
                     enemyIsAlive2 = false;
+                    cout << "----------------------------------\n";
                     cout << "Has matado al " << enemyName2 << "\n";
-                    cout << "-------------------------\n";
+                    cout << "--------------------\n";
                 }
                 break;
 
@@ -473,8 +483,9 @@ int main() {
                 if (enemyHP2 <= 0) {
                     enemyHP2 = 0;
                     enemyIsAlive2 = false;
+                    cout << "----------------------------------\n";
                     cout << "Has matado al " << enemyName2 << "\n";
-                    cout << "-------------------------\n";
+                    cout << "--------------------\n";
                 }
                 break;
 
@@ -491,8 +502,9 @@ int main() {
                 if (enemyHP2 <= 0) {
                     enemyHP2 = 0;
                     enemyIsAlive2 = false;
+                    cout << "----------------------------------\n";
                     cout << "Has matado al " << enemyName2 << "\n";
-                    cout << "-------------------------\n";
+                    cout << "--------------------\n";
                 }
                 break;
 
@@ -535,8 +547,8 @@ int main() {
 
     if (heroIsAlive && enemyIsAlive1 == false && enemyIsAlive2 == false) {
         //PlaySound(TEXT("Final.wav"), NULL, SND_FILENAME | SND_SYNC);
-        cout << "---------------------------------------------------------\n";
-        cout << "Has matado a las dos criaturas, tus amigos estan a salvo.\n";
-        cout << "---------------------------------------------------------\n";
+        cout << "----------------------------------------------------------\n";
+        cout << "Has matado a las dos criaturas, tus amigos estan a salvo!!\n";
+        cout << "----------------------------------------------------------\n";
     }
 }
