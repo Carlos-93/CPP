@@ -37,7 +37,7 @@ int enemyDamage2;
 bool enemiesDead() {
 
     if (heroHP > 0 && enemyHP1 <= 0 && enemyHP2 <= 0) {
-        //PlaySound(TEXT("Final.wav"), NULL, SND_FILENAME | SND_SYNC);
+        PlaySound(TEXT("Final.wav"), NULL, SND_FILENAME | SND_SYNC);
         cout << "----------------------------------------------------------\n";
         cout << "Has matado a las dos criaturas, tus amigos estan a salvo!!\n";
         cout << "----------------------------------------------------------\n";
@@ -54,7 +54,7 @@ bool heroDead() {
 
     if (heroHP <= 0) {
         heroHP = 0;
-        //PlaySound(TEXT("FinalHeroe.wav"), NULL, SND_FILENAME | SND_SYNC);
+        PlaySound(TEXT("FinalHeroe.wav"), NULL, SND_FILENAME | SND_SYNC);
         cout << "---------------\n";
         cout << "Te han matado!!\n";
         cout << "---------------\n";
@@ -94,7 +94,7 @@ void introductionGame() {
     cin >> heroName;
     cout << "El heroe se llama " << heroName << "\n";
     system("pause");
-    //PlaySound(TEXT("Introduccion.wav"), NULL, SND_FILENAME | SND_SYNC);
+    PlaySound(TEXT("Introduccion.wav"), NULL, SND_FILENAME | SND_SYNC);
 }
 void lifePointsHeroEnemy1Enemy2() {
 
@@ -186,17 +186,17 @@ void switchToEnemies(int& enemiesHPS, bool& enemiesStatus, string& enemiesNames)
     switch (ataque) {
 
     case 1:
-        //PlaySound(TEXT("Espada.wav"), NULL, SND_FILENAME | SND_SYNC);
+        PlaySound(TEXT("Espada.wav"), NULL, SND_FILENAME | SND_SYNC);
         attackEspada(enemiesHPS, enemiesStatus, enemiesNames);
         break;
 
     case 2:
-        //PlaySound(TEXT("Magia.wav"), NULL, SND_FILENAME | SND_SYNC);
+        PlaySound(TEXT("Magia.wav"), NULL, SND_FILENAME | SND_SYNC);
         attackMagia(enemiesHPS, enemiesStatus, enemiesNames);
         break;
 
     case 3:
-        //PlaySound(TEXT("Flecha.wav"), NULL, SND_FILENAME | SND_SYNC);
+        PlaySound(TEXT("Flecha.wav"), NULL, SND_FILENAME | SND_SYNC);
         attackFlecha(enemiesHPS, enemiesStatus, enemiesNames);
         break;
 
