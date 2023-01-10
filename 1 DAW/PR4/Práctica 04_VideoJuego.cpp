@@ -206,7 +206,7 @@ void switchToEnemies(int& enemiesHPS, bool& enemiesStatus, string& enemiesNames)
         break;
     }
 }
-void attackToEnemies(int& enemySelect) {
+void attackToEnemies() {
 
     if (enemySelect == 1) {
         cout << "---------------------------------------------\n";
@@ -224,7 +224,7 @@ void attackToEnemies(int& enemySelect) {
         attackToHero(enemyHP2, enemyDamage2, enemyName2);
 
     }
-    if (enemySelect == 2) {
+   else if (enemySelect == 2) {
         cout << "---------------------------------------------\n";
         cout << "Que ataque quieres utilizar contra el Orco?\n";
         cout << "---------------------------------------------\n";
@@ -263,7 +263,7 @@ void battleToEnemies() {
 
     lifePointsHeroEnemy1Enemy2();
     selectEnemyAttack();
-    attackToEnemies(enemySelect);
+    attackToEnemies();
 
     system("pause");
     system("cls");
